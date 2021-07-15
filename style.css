@@ -1,0 +1,57 @@
+.first-container{
+    display: flex;
+    background-color: rgb(179, 44, 44);
+    width: 1200px;
+    position: relative;
+    left: 60px;
+    margin-bottom: 30px;
+    
+    
+}
+.link-bottum{
+    text-decoration: none;
+    background-color: blueviolet;
+    border-radius: 10px;
+  
+    
+}
+.banner{
+    width: 600px;
+}
+.uffa-one{
+    padding-left: 20%;
+     padding-top: 10%;
+    font-size: 30px;
+   
+}
+.player-photo{
+    width: 320px;
+    height: 300px;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    justify-content: center;
+    left: 55px;
+    grid-row-gap: 30px;
+    
+}
+.player{
+    width: 330px;
+    height: 450;
+    box-shadow: 2px 5px 12px black;
+}
+.player h1{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.player p{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
